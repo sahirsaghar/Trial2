@@ -2,8 +2,51 @@
 <HTML>
   <head>
     <link rel="stylesheet" href="styles.css">
-<title>
+   <style>
+     #nav-bar {
+    display: flex;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color:  #66ff99;
+    float: left;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  #nav-bar a{
+    display: block;
+    position: fixed;
+  }
+        
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
 
+    @media (max-width: 75em) {
+      html {
+        font-size: 60%;
+      }
+    }
+    
+    
+    @media (max-width: 61.25em) {
+      html {
+        font-size: 58%;
+      }
+    }
+    
+    
+    @media (max-width: 28.75em) {
+      html {
+        font-size: 55%;
+      }
+    }
+    </style>
+<title>
+some title
 </title>
 
   </head>
@@ -11,15 +54,14 @@
   <body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>   
 <header id="header">
-<img src="#" id="header-img">
-<nav id="nav-bar">
-<ul>
-  <li><a href="#example" class="nav-link">Features</a></li>
-  <li><a href="#example" class="nav-link">How it works</a></li>
-  <li><a href="#example" class="nav-link">Pricing</a></li>
-</ul>
-    </nav>
-    
+  <nav id="nav-bar">
+    <ul>
+      <li><a href="#example" class="nav-link">Features</a></li>
+      <li><a href="#example" class="nav-link">How it works</a></li>
+      <li><a href="#example" class="nav-link">Pricing</a></li>
+    </ul>
+        </nav>
+  <img src="https://img.freepik.com/free-vector/flat-design-swimming-logo-template_23-2149360936.jpg?t=st=1654321599~exp=1654322199~hmac=ce11fb3097d1decba6c7281975c85cf62d304f0ebfd1d55f0b75f9ef9e6f2061&w=740" id="header-img">
 </header>
 <div id="example"></div>
 <iframe id="video" src="https://www.youtube.com/embed/oAbfSHHqwN4"></iframe>
